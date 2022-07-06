@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+}
+
+.content1 {
+    background: linear-gradient(to bottom, rgb(250, 137, 7)50%, #fff 50%);
+    height: 900px;
+    width: 550px;
+    border-radius: 30px;
+    margin-left: 600px;
+    overflow: hidden;
+}
+
+.heading {
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 30px;
+    line-height: 5px;
+}
+
+.heading1 {
+    line-height: 12px;
+    display: flex;
+}
+
+.head {
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.question {
+    width: 510px;
+    height: 550px;
+    background-color: rgb(253, 249, 249);
+    border-radius: 10px;
+    margin-left: 18px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.head1 h3 {
+    padding-left: 33px;
+    padding-top: 40px;
+    font-size: 20px;
+
+}
+.cards{
+    padding: 10px;
+    display: grid;
+    gap: 20px;
+}
+.cards ul li {
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    height: 50px;
+}
+
+.cards1 {
+    padding-right: 30px;
+    color: grey;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    box-shadow: 0px 1px;
+}
+li{
+    font-size: 20px;
+}
+::marker{
+    color:rgb(250, 137, 7) ;
+
+}
+
+.button1 {
+    margin-left: 30px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.but {
+    width: 350px;
+    height: 55px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(82, 81, 81);
+    background-color: #fff;
+}
