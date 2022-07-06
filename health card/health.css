@@ -134,9 +134,23 @@ nav ul li button:hover{
     width: 150px;
 }
 .part2{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: ;
+    display:flex;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    justify-content: center;
+    gap: 20px;
+    
+    margin: 20px;
+    align-items: center;
+}
+.card1{
+    /* border: 1px solid black; */
+    height: 15rem;
+    width: 12rem;
+    background: linear-gradient(to right, rgba(254, 187, 187, 1) 41%, rgba(254, 144, 144, 1) 99%, rgba(255, 92, 92, 1) 100%);
+    border-radius: 20px;
+}
+.card1 h2{
+    padding-top: 90px;
 }
 /* end of section1 */
 /*  */
